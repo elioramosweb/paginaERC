@@ -6,6 +6,9 @@ title: Example report
 
 This report is a brief overview of the history and current state of rocket launches and space exploration.
 
+
+
+
 ## Background
 
 The history of rocket launches dates back to ancient China, where gunpowder-filled tubes were used as primitive forms of propulsion.
