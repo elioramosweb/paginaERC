@@ -1,51 +1,78 @@
 ---
 toc: false
+theme: light
 ---
 
 ```js
 import renderP5Sketch from "./p5-sketch.js"
 ```
 
-```js
-function getCanvas() 
-{
-  const div = html`<div></div>`;
-  renderP5Sketch(div);
+```js 
+function getCanvas() {
+  const div = html`<div style="width: 100%; height: 400px; border-radius: 16px; overflow: hidden;"></div>`;
+
+  function startWhenReady() {
+    requestAnimationFrame(() => {
+      const w = div.clientWidth;
+      const h = div.clientHeight;
+
+      // Si aún no tiene tamaño visible, vuelve a intentar
+      if (w === 0 || h === 0) {
+        setTimeout(startWhenReady, 100);
+      } else {
+        renderP5Sketch(div, w, h);
+      }
+    });
+  }
+
+  startWhenReady();
   return div;
 }
+
 ```
 
 
-<!-- ```js
-function func() = {
-   return "nada";
- }
-``` -->
-
-
-<div class="grid grid-cols-3">
-  <div class="card" style="border: none; text-align: center;">
+<div class="grid grid-cols-2">
+  <div class="card" style="border: none; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
   <h1>Elio Ramos Colón</h1> <br> 
   <h2>Departamento de Matemática <br>
   Universidad de Puerto Rico en Humacao</h2> 
   </div>
   <div class="card" style="border: none;">
-  <img src="images/triple-logo.png" style="width:80%; display: block; margin: auto;" />
+  <img src="images/triple-logo.png" style="width:90%; display: block; margin: auto;" />
   </div>
 </div> 
 
 
-<div class="grid grid-cols-3">
-<div class="card" style="border: none;">
-<img src="images/foto_erc.jpg" style="width:90%; display: block; margin: auto;" />
+
+<!-- <div class="grid grid-cols-2">
+  <div class="card" style="border: none;">
+    <img id="foto" src="images/foto_erc.jpg" style="width:90%; display: block; margin: auto;" />
+  </div>
+  <div class="card" style="width:100%; display: block; margin: auto;">
+    <img src="images/networking.png" style="width:90%; display: block; margin: auto;" caption="skdsk"/>
+    <br>
+    "Networking 2" (2023) - desarrollado en p5js (https://openprocessing.org/sketch/1936954) 
+  </div>
+</div> -->
+ 
+
+<div class="grid grid-cols-2">
+  <div class="card" style="border: none;">
+    <img id="foto" src="images/foto_erc.jpg" style="width:90%; display: block; margin: auto;" />
+  </div>
+  <div class="card" style="border: none;">
+    <img src="images/networking.png" style="width:90%; display: block; margin: auto;" />
+    <br>
+    <p style="margin-top: 0.5rem; text-align: center;">
+      "Networking 2" (2023) – desarrollado en p5.js <br>
+      <a href="https://openprocessing.org/sketch/1936954" target="_blank">Ver Código</a>
+    </p>
+  </div>
 </div>
-<div class="card" style="width:90%; border: none; display: block;">
-${display(getCanvas())}
-</div>
-</div> 
 
 
-<div style="max-width:80%; margin-left: 0; margin-right: auto;">
+<div style="max-width:95%; margin-left: 0; margin-right: auto; text-align: justify;">
   Soy profesor de Matemáticas, Ciencia de Cómputo y Ciencia de Datos en el Departamento de Matemáticas de la <a href="https://www.uprh.edu">Universidad de Puerto Rico en Humacao</a>.  Soy el coordinador académico del <a href="https://cdat.uprh.edu">Programa de Bachillerato en Ciencia de Datos (PBCD)</a>.Tengo un Ph.D. en Ciencias Computacionales e Informática de <a href="https://gmu.edu">George Mason University</a>.  
   
   Dentro del PBCD enseño los cursos de:
@@ -106,9 +133,9 @@ body {
   line-height: 1.7;          /* legibilidad */
   letter-spacing: 0.01em;    /* espaciado sutil */
   padding: 1.5rem;           /* espacios amplios alrededor del contenido */
-  max-width: 80%;           /* evita líneas muy largas */
-  margin: auto;
-}
+  /* max-width: 80%;           /* evita líneas muy largas */
+  margin: auto; */
+} 
 
 
 .hero {
