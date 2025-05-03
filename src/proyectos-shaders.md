@@ -3,8 +3,32 @@ toc: false
 theme: light
 ---
 
-# Proyectos de Visualización de Alto Rendimiento 
+# Visualización de Alto Rendimiento 
 
 <br> 
 
-pronto aquí 
+Lyapunov 2D 
+
+
+<br> 
+
+Lyapunov 3D 
+
+
+
+<br> 
+
+Función Zeta de Riemann
+
+
+<br> 
+
+
+Atractor de Clifford sobre una Esfera  
+
+
+<br> 
+
+Atomic Singular Inner Function
+
+

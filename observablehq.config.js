@@ -14,8 +14,9 @@ export default {
     {
       name: "Proyectos",
       pages: [
-        { name: "Arte Generativo", path: "/arte-generativo" },
-        { name: "Visualización de Alto Rendimiento", path: "/proyectos-shaders" },
+        { name: "Arte Generativo y Visualización de Alto Rendimiento", path: "/arte-generativo" },
+        { name: "Visualización de los Dígitos de \u03C0", path: "/proyectos-pi" },
+        { name: "Proyectos de Estudiantes", path: "/proyectos-estudiantes" },
       ],
     }
   ],
