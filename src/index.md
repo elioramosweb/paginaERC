@@ -52,7 +52,7 @@ function getCanvas() {
     <img src="images/networking.png" style="width:90%; display: block; margin: auto;" />
     <br>
     <p style="margin-top: 0.5rem; text-align: center;">
-      "Networking 2" (2023) – desarrollado en p5.js <br>
+      "Networking 2" (2023) – desarrollado en <a href="https://p5js.org/" target="_blank">p5js</a> <br>
       <a href="https://openprocessing.org/sketch/1936954" target="_blank">Ver Código</a>
     </p>
   </div>
@@ -60,7 +60,7 @@ function getCanvas() {
 
 
 <div style="max-width:95%; margin-left: 0; margin-right: auto; text-align: justify;">
-  Soy profesor de Matemáticas, Ciencia de Cómputo y Ciencia de Datos en el Departamento de Matemáticas de la <a href="https://www.uprh.edu">Universidad de Puerto Rico en Humacao</a>.  Soy el coordinador académico del <a href="https://cdat.uprh.edu">Programa de Bachillerato en Ciencia de Datos (PBCD)</a>.Tengo un PhD en Ciencias Computacionales e Informática de <a href="https://gmu.edu">George Mason University</a>.  
+  Soy profesor de Matemáticas, Ciencia de Cómputo y Ciencia de Datos en el Departamento de Matemáticas de la <a href="https://www.uprh.edu" target="_blank">Universidad de Puerto Rico en Humacao</a>.  Soy el coordinador académico del <a href="https://cdat.uprh.edu" target="_blank">Programa de Bachillerato en Ciencia de Datos (PBCD)</a>.Tengo un PhD en Ciencias Computacionales e Informática de <a href="https://gmu.edu" target="_blank">George Mason University</a>.  
   
   Dentro del PBCD enseño los cursos de:
 
@@ -73,6 +73,17 @@ function getCanvas() {
 </ul>
 
 </div>
+
+<div style="max-width:95%; margin-left: 0; margin-right: auto; text-align: justify;">
+Además, enseño cursos introductorios de programación que son parte de la <a href="https://cdat.uprh.edu/concentracion-menor.html" target="_blank">Concentración Menor en Ciencia de Datos</a>: 
+</div>
+
+<ul>
+<li>Introducción al uso de la Computadora (Comp3005)</li>
+<li>Introducción a la Programación y el Análisis Numérico (Mate3009)</li>
+<li>Programación de Computadoras y Algoritmos (Inge3016) </li>
+</ul>
+
 
 <p>Puedes ver algunos de mis proyectos en <a href="https://github.com/elioramosweb" target="_blank">mi perfil de GitHub</a>.</p>
 

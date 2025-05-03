@@ -1,19 +1,37 @@
 // See https://observablehq.com/framework/config for documentation.
 export default {
   // The app’s title; used in the sidebar and webpage titles.
-  title: "PaginaERC",
+  title: "Página Elio Ramos Colón",
 
   // The pages and sections in the sidebar. If you don’t specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
   // lets you organize them into sections and have unlisted pages.
+
+
+  pages: [
+    { name: "" }, // Esto actúa como un separador visual
+  
+    {
+      name: "Proyectos",
+      pages: [
+        { name: "Arte Generativo", path: "/arte-generativo" },
+        { name: "Visualización de Alto Rendimiento", path: "/proyectos-shaders" },
+      ],
+    }
+  ],
+  
+
   // pages: [
   //   {
-  //     name: "Examples",
+  //     { name: "―" }, 
+
+  //     {
+  //     name: "Proyectos",
   //     pages: [
-  //       {name: "Dashboard", path: "/example-dashboard"},
-  //       {name: "Report", path: "/example-report"}
+  //       {name: "Arte Generativo", path: "/arte-generativo"},
+  //       {name: "Visualización de Alto Rendimiento", path: "/proyectos-shaders"},
   //     ]
-  //   }
+  //     }
   // ],
 
   // Content to add to the head of the page, e.g. for a favicon:
@@ -27,12 +45,12 @@ export default {
   // header: "", // what to show in the header (HTML)
   //footer: "Built with Observable.", // what to show in the footer (HTML)
   footer:false,
-  pager: false
+  pager: false,
   // sidebar: true, // whether to show the sidebar
   // toc: true, // whether to show the table of contents
   // pager: true, // whether to show previous & next links in the footer
-  // output: "dist", // path to the output root for build
-  // search: true, // activate search
+  output: "public_html",
+  search: true, // activate search
   // linkify: true, // convert URLs in Markdown to links
   // typographer: false, // smart quotes and other typographic improvements
   // preserveExtension: false, // drop .html from URLs
