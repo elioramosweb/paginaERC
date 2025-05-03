@@ -44,19 +44,6 @@ function getCanvas() {
 </div> 
 
 
-
-<!-- <div class="grid grid-cols-2">
-  <div class="card" style="border: none;">
-    <img id="foto" src="images/foto_erc.jpg" style="width:90%; display: block; margin: auto;" />
-  </div>
-  <div class="card" style="width:100%; display: block; margin: auto;">
-    <img src="images/networking.png" style="width:90%; display: block; margin: auto;" caption="skdsk"/>
-    <br>
-    "Networking 2" (2023) - desarrollado en p5js (https://openprocessing.org/sketch/1936954) 
-  </div>
-</div> -->
- 
-
 <div class="grid grid-cols-2">
   <div class="card" style="border: none;">
     <img id="foto" src="images/foto_erc.jpg" style="width:90%; display: block; margin: auto;" />
@@ -73,7 +60,7 @@ function getCanvas() {
 
 
 <div style="max-width:95%; margin-left: 0; margin-right: auto; text-align: justify;">
-  Soy profesor de Matemáticas, Ciencia de Cómputo y Ciencia de Datos en el Departamento de Matemáticas de la <a href="https://www.uprh.edu">Universidad de Puerto Rico en Humacao</a>.  Soy el coordinador académico del <a href="https://cdat.uprh.edu">Programa de Bachillerato en Ciencia de Datos (PBCD)</a>.Tengo un Ph.D. en Ciencias Computacionales e Informática de <a href="https://gmu.edu">George Mason University</a>.  
+  Soy profesor de Matemáticas, Ciencia de Cómputo y Ciencia de Datos en el Departamento de Matemáticas de la <a href="https://www.uprh.edu">Universidad de Puerto Rico en Humacao</a>.  Soy el coordinador académico del <a href="https://cdat.uprh.edu">Programa de Bachillerato en Ciencia de Datos (PBCD)</a>.Tengo un PhD en Ciencias Computacionales e Informática de <a href="https://gmu.edu">George Mason University</a>.  
   
   Dentro del PBCD enseño los cursos de:
 
@@ -87,41 +74,10 @@ function getCanvas() {
 
 </div>
 
+<p>Puedes ver mis proyectos en <a href="https://github.com/elioramosweb" target="_blank">mi perfil de GitHub</a>.</p>
 
 
-<!-- 
-<div class="grid grid-cols-2" style="grid-auto-rows: 504px;">
-  <div class="card">${
-    resize((width) => Plot.plot({
-      title: "Your awesomeness over time 🚀",
-      subtitle: "Up and to the right!",
-      width,
-      y: {grid: true, label: "Awesomeness"},
-      marks: [
-        Plot.ruleY([0]),
-        Plot.lineY(aapl, {x: "Date", y: "Close", tip: true})
-      ]
-    }))
-  }</div>
-  <div class="card">${
-    resize((width) => Plot.plot({
-      title: "How big are penguins, anyway? 🐧",
-      width,
-      grid: true,
-      x: {label: "Body mass (g)"},
-      y: {label: "Flipper length (mm)"},
-      color: {legend: true},
-      marks: [
-        Plot.linearRegressionY(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species"}),
-        Plot.dot(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species", tip: true})
-      ]
-    }))
-  }</div>
-</div> -->
-
----
-
-<b>Correo-electrónico</b>: elio.ramos@upr.edu
+<b>Correo-electrónico</b>: elio.ramos@upr.edu<br>
 
 
 <style>
