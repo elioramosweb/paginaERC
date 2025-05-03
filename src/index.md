@@ -74,7 +74,7 @@ function getCanvas() {
 
 </div>
 
-<p>Puedes ver mis proyectos en <a href="https://github.com/elioramosweb" target="_blank">mi perfil de GitHub</a>.</p>
+<p>Puedes ver algunos de mis proyectos en <a href="https://github.com/elioramosweb" target="_blank">mi perfil de GitHub</a>.</p>
 
 
 <b>Correo-electrónico</b>: elio.ramos@upr.edu<br>
