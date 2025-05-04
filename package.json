@@ -10,9 +10,15 @@
   },
   "dependencies": {
     "@observablehq/framework": "^1.13.3",
+    "@react-three/fiber": "^9.1.2",
     "d3-dsv": "^3.0.1",
     "d3-time-format": "^4.1.0",
-    "p5": "^1.11.5"
+    "p5": "^1.11.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-three-fiber": "^6.0.13",
+    "react-to-webcomponent": "^2.0.1",
+    "three": "^0.176.0"
   },
   "devDependencies": {
     "rimraf": "^5.0.5"

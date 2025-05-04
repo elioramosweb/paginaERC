@@ -49,11 +49,11 @@ function getCanvas() {
     <img id="foto" src="images/foto_erc.jpg" style="width:90%; display: block; margin: auto;" />
   </div>
   <div class="card" style="border: none;">
-    <img src="images/networking.png" style="width:90%; display: block; margin: auto;" />
+    <img src="images/caleidoscopio3.png" style="width:90%; display: block; margin: auto;" />
     <br>
     <p style="margin-top: 0.5rem; text-align: center;">
-      "Networking 2" (2023) – desarrollado en <a href="https://p5js.org/" target="_blank">p5js</a> <br>
-      <a href="https://openprocessing.org/sketch/1936954" target="_blank">Ver Código</a>
+      "Caleidoscopio 3" (2020) – desarrollado en <a href="https://p5js.org/" target="_blank">p5js</a> <br>
+      <a href="https://openprocessing.org/sketch/951702" target="_blank">Ver Código</a>
     </p>
   </div>
 </div>
